@@ -1,0 +1,21 @@
+{
+  "name": "sentiment-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teerasej Jiraphatchandej",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ai-text-analytics": "latest",
+    "@azure/identity": "^2.0.1",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^12.20.55",
+    "rimraf": "latest",
+    "typescript": "~4.4.0"
+  }
+}
